@@ -1,0 +1,59 @@
+h1 {
+font-size: 50px;
+margin: 80px;
+text-align: center;
+font-family: 'Russo One', sans-serif;
+color: rgb(8, 160, 69);
+margin-top: 135px;
+}
+
+p {
+font-size: 30px;
+text-align: center;
+font-family: 'Russo One', sans-serif;
+font-family: 'Teko', sans-serif;
+color: white;
+}
+
+body {
+color:black;
+background-image:url(https://tse1.mm.bing.net/th?id=OIP.o888ZeVWSW6sRebgcLu0eQHaE8&pid=Api&P=0&w=243&h=163);
+}
+   
+.card {
+padding: 20px;
+display: flex;
+flex-direction: column;
+
+}
+.card img {
+  width: 300px;
+}
+.card h3 {
+  padding-left: 20px;
+}
+
+.flexbox {
+display: flex;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.flexbox {
+justify-content: space-around;
+font-size: 20px;
+}
